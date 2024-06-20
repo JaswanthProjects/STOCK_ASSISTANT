@@ -9,7 +9,7 @@ import os
 
 
 
-openai.api_key = 'sk-proj-lY2GkpOTym2cJwJetjkBT3BlbkFJmamVOWqhrNa9lWT2ba6j'
+openai.api_key = <Your API Key>
 
 def getStockPrice(ticker):
     return str(yf.Ticker(ticker).history(period='1y').iloc[-1].Close)
