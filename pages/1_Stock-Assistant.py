@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import yfinance as yf
 import streamlit as st
 
-openai.api_key = 'sk-proj-1UAOmJ8wEwxZeR34Z9cyT3BlbkFJaQPocPfLSR2WQNG8KTKi'
+openai.api_key = '<YOUR API KEY>'
 
 def getStockPrice(ticker):
     return str(yf.Ticker(ticker).history(period='1y').iloc[-1].Close)
