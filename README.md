@@ -1,5 +1,5 @@
 # Stock Assistant Bot
-#### Written by Jaswanth Sai Deevela
+#### Written by Jaswanth Sai Deevela and Rithik Ronald
 - The stock bot leverages the power of GPT to understand natural language queries and respond accordingly.
 - It seamlessly integrates with the Yahoo Finance API to access real-time stock data.
 - The project demonstrates the use of Streamlit for building interactive web applications.
